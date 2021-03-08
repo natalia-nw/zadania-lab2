@@ -68,6 +68,14 @@ print(parzyste)
 
 # zad 9
 lista = [1, 2, 3, 4, 5]
+i = 0
+while i < len(lista):
+    if lista[i] % 2 == 0:
+        print("E")
+        i = i+1
+    else:
+        print("EEEEEE")
+        i = i+1
 
 # zad 10
 import math
